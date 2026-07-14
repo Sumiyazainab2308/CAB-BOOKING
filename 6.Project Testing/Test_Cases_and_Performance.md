@@ -17,8 +17,8 @@
 ### TC-01: One-Click Demo Rider Login
 * **Pre-condition:** User is on `/login`.
 * **Action:** Click button "⚡ One-Click Demo Rider Login".
-* **Expected Result:** `AuthContext` receives JWT payload for `pravanshu@ucab.com`, stores token in `localStorage`, displays welcome toast, and navigates to `/home`.
-* **Actual Result:** Navigated smoothly with toast `Welcome back, Pravanshu!`. (**Passed**)
+* **Expected Result:** `AuthContext` receives JWT payload for `sumiya@ucab.com`, stores token in `localStorage`, displays welcome toast, and navigates to `/home`.
+* **Actual Result:** Navigated smoothly with toast `Welcome back, Shaik Sumiya Zainab!`. (**Passed**)
 
 ### TC-02: Promo Code Discount Validation
 * **Pre-condition:** User is on `/book/:id` booking a Sedan (`₹12/km`).

@@ -2,7 +2,7 @@
 
 **Project Name:** Cab Booking (`UCab`)  
 **Project ID:** `N/A (Solo Track Submission)`  
-**Developer Role:** Solo Full-Stack MERN Developer  
+**Team Member / Solo Developer:** Shaik Sumiya Zainab  
 
 ---
 

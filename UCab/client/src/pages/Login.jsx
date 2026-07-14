@@ -52,15 +52,15 @@ const Login = () => {
             // Check if demo user exists, if not register instantly and login
             try {
                 const res = await axios.post('http://localhost:8000/api/users/login', {
-                    email: 'pravanshu@ucab.com',
+                    email: 'sumiya@ucab.com',
                     password: 'password123'
                 });
                 loginUser(res.data, res.data.token);
                 navigate('/uhome');
             } catch {
                 const reg = await axios.post('http://localhost:8000/api/users/register', {
-                    name: 'Pravanshu Sharma',
-                    email: 'pravanshu@ucab.com',
+                    name: 'Shaik Sumiya Zainab Sharma',
+                    email: 'sumiya@ucab.com',
                     password: 'password123',
                     phone: '+91 98765 43210'
                 });
@@ -205,7 +205,7 @@ const Login = () => {
                                 type="email"
                                 className="form-input"
                                 style={{ paddingLeft: '38px' }}
-                                placeholder={tab === 'admin' ? 'admin@ucab.com' : 'pravanshu@ucab.com'}
+                                placeholder={tab === 'admin' ? 'admin@ucab.com' : 'sumiya@ucab.com'}
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 required

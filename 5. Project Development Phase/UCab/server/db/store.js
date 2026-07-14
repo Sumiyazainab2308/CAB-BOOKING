@@ -8,8 +8,8 @@ const defaultData = {
     users: [
         {
             _id: 'user_1',
-            name: 'Pravanshu Sharma',
-            email: 'pravanshu@ucab.com',
+            name: 'Shaik Sumiya Zainab Sharma',
+            email: 'sumiya@ucab.com',
             password: '$2b$10$YourHashedPasswordOrDemo123', // plain 'password123' check supported in auth fallback
             phone: '+91 98765 43210',
             savedPaymentMethod: 'Automatic Saved Card (Visa •••• 4242)',

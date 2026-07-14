@@ -99,7 +99,7 @@ const Register = () => {
                                 type="text"
                                 className="form-input"
                                 style={{ paddingLeft: '38px' }}
-                                placeholder="Pravanshu Sharma"
+                                placeholder="Shaik Sumiya Zainab Sharma"
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 required
