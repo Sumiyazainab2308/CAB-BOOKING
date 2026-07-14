@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "_id": "user_1",
+      "name": "Pravanshu Sharma",
+      "email": "pravanshu@ucab.com",
+      "password": "$2b$10$YourHashedPasswordOrDemo123",
+      "phone": "+91 98765 43210",
+      "savedPaymentMethod": "Automatic Saved Card (Visa •••• 4242)",
+      "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&h=200&q=80",
+      "createdAt": "2026-07-14T17:20:33.376Z"
+    }
+  ],
+  "admins": [
+    {
+      "_id": "admin_1",
+      "name": "Super Admin",
+      "email": "admin@ucab.com",
+      "password": "$2b$10$AdminHashedPasswordOrDemo",
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    }
+  ],
+  "cars": [
+    {
+      "_id": "car_1",
+      "name": "Maruti Suzuki Swift Dzire",
+      "cabType": "Sedan",
+      "pricePerKm": 12,
+      "baseFare": 50,
+      "seats": 4,
+      "plateNumber": "DL 01 AB 1234",
+      "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=600&q=80",
+      "isAvailable": true,
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    },
+    {
+      "_id": "car_2",
+      "name": "Toyota Innova Crysta",
+      "cabType": "SUV",
+      "pricePerKm": 18,
+      "baseFare": 80,
+      "seats": 6,
+      "plateNumber": "DL 02 CD 5678",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80",
+      "isAvailable": true,
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    },
+    {
+      "_id": "car_3",
+      "name": "Maruti Suzuki WagonR",
+      "cabType": "Mini",
+      "pricePerKm": 10,
+      "baseFare": 40,
+      "seats": 4,
+      "plateNumber": "DL 03 EF 9012",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80",
+      "isAvailable": true,
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    },
+    {
+      "_id": "car_4",
+      "name": "Mercedes-Benz E-Class Executive",
+      "cabType": "Luxury",
+      "pricePerKm": 35,
+      "baseFare": 150,
+      "seats": 4,
+      "plateNumber": "DL 04 GH 3456",
+      "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=600&q=80",
+      "isAvailable": true,
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    },
+    {
+      "_id": "car_5",
+      "name": "Hyundai Aura Compact Sedan",
+      "cabType": "Sedan",
+      "pricePerKm": 12,
+      "baseFare": 50,
+      "seats": 4,
+      "plateNumber": "DL 05 IJ 7890",
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80",
+      "isAvailable": true,
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    },
+    {
+      "_id": "car_6",
+      "name": "Mahindra XUV700 Executive SUV",
+      "cabType": "SUV",
+      "pricePerKm": 18,
+      "baseFare": 80,
+      "seats": 6,
+      "plateNumber": "DL 06 KL 2345",
+      "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=600&q=80",
+      "isAvailable": true,
+      "createdAt": "2026-07-14T17:20:33.380Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "booking_1",
+      "user": "user_1",
+      "car": "car_1",
+      "pickupLocation": "Indira Gandhi International Airport Terminal 3",
+      "dropLocation": "Cyber Hub, DLF Phase 2, Gurgaon",
+      "bookingDate": "Jul 12, 2026, 10:50 PM",
+      "distanceKm": 18,
+      "totalFare": 266,
+      "status": "Completed",
+      "refreshmentsOrdered": true,
+      "donationMade": false,
+      "discountCode": "UCAB20",
+      "discountAmount": 66,
+      "paymentMethod": "Automatic Saved Card (Visa •••• 4242)",
+      "driverAssigned": {
+        "name": "Vikram Sharma",
+        "phone": "+91 98111 22334",
+        "rating": 4.9
+      },
+      "createdAt": "2026-07-12T17:20:33.456Z"
+    },
+    {
+      "_id": "booking_2",
+      "user": "user_1",
+      "car": "car_2",
+      "pickupLocation": "Connaught Place Outer Circle, New Delhi",
+      "dropLocation": "Select Citywalk Mall, Saket",
+      "bookingDate": "Jul 14, 2026, 10:50 PM",
+      "distanceKm": 14,
+      "totalFare": 332,
+      "status": "Started",
+      "refreshmentsOrdered": false,
+      "donationMade": true,
+      "discountCode": "",
+      "discountAmount": 0,
+      "paymentMethod": "Automatic Saved Card (Visa •••• 4242)",
+      "estimatedTimeMinutes": 8,
+      "driverAssigned": {
+        "name": "Rajesh Kumar",
+        "phone": "+91 98222 33445",
+        "rating": 4.8
+      },
+      "createdAt": "2026-07-14T17:20:33.456Z"
+    }
+  ]
+}
