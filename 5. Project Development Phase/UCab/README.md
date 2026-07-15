@@ -6,21 +6,17 @@
 
 ---
 
-## 1. Project Title & Video Demo Overview
+## 1. Project Title & Overall Video Demo Table
+
 **UCab — Full-Stack MERN & AI-Driven Smart Cab Booking, Dynamic Fare Prediction & Route Optimization Platform**
 
-### 🎬 Evaluation Verification & Video Demo Table (Google Drive Links)
+### 🎬 Project Submission Verification & Video Demo Column
 
-Below is our structured verification summary featuring direct **Google Drive Video Demo links** for each evaluation module:
+Below is the top-level evaluation verification table containing our **single overall project demonstration video** hosted on Google Drive:
 
-| Evaluation Checklist / Feature Module | Status | Video Demo Column (Google Drive Link) |
-| :--- | :---: | :--- |
-| **1. VS Code Codebase Walkthrough (40-60s)** | ✅ Verified | [🎬 Watch VS Code Walkthrough (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=0m00s) |
-| **2. One-Click Demo Rider Login (`pravanshu@ucab.com`)** | ✅ Verified | [🎬 Watch One-Click Login Demo (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=0m50s) |
-| **3. AI Fare Prediction & Cab Booking (`₹/km`)** | ✅ Verified | [🎬 Watch AI Fare & Checkout Demo (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=1m15s) |
-| **4. Live GPS Dispatch Tracking (`UserHome.jsx`)** | ✅ Verified | [🎬 Watch Live GPS Progress Bar (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=1m55s) |
-| **5. Executive Admin Dashboard & Dispatch Control** | ✅ Verified | [🎬 Watch Admin Dashboard Demo (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=2m20s) |
-| **6. Thermal Corporate PDF Receipt + QR Code** | ✅ Verified | [🎬 Watch PDF Receipt Download (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=2m45s) |
+| Project Phase / Track Submission | Developer / Lead | Video Demo Column (Google Drive Link) | Evaluation Status |
+| :--- | :--- | :--- | :---: |
+| **UCab — Full-Stack MERN & AI-Driven Cab Booking System** *(All 22 Functional Features & Zero-Config Dual Storage Engine)* | **Shaik Sumiya Zainab** | [🎬 Watch Overall 3-Minute Project Demo Video (Google Drive Link)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing) | ✅ **10/10 Complete & Verified** |
 
 ---
 
@@ -137,24 +133,24 @@ npm run dev
 
 ---
 
-## 7. Screenshots & UI Showcase (`With Video Demo Column`)
+## 7. Screenshots & UI Showcase
 
-Below are visual descriptions and showcase highlights of the 6 core application screens along with their exact **Video Demo Google Drive Links**:
+Below are visual descriptions and showcase highlights of the 6 core application screens:
 
-| Screen / Page | Route | UI Feature & Visual Overview | Video Demo Column (Google Drive Link) |
-| :--- | :--- | :--- | :--- |
-| **1. Home Page (`Home.jsx`)** | `/home` | **Hero Section & Quick Booking Widget:** Features a sleek glassmorphism search bar where riders enter pickup, drop-off, and travel dates against an animated dark backdrop. | [🎬 Watch Home Page Demo (Google Drive)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=0m55s) |
-| **2. Login (`Login.jsx`)** | `/login` | **Secure Auth & 1-Click Demo:** Clean split-screen login card equipped with a prominent **"⚡ One-Click Demo Rider Login"** button allowing instant evaluation. | [🎬 Watch Login Screen Demo (Google Drive)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=0m50s) |
-| **3. Book Cab & AI Fare (`BookCab.jsx`)** | `/book/:id` | **AI Distance & Fare Predictor:** Real-time checkout displaying exact route mileage (`km`), promo code application (`UCAB20`), and toggleable checkboxes for Refreshments (`+₹50`) & Charity (`+₹20`). | [🎬 Watch AI Fare & Checkout Demo (Google Drive)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=1m15s) |
-| **4. Ride Details (`UserHome.jsx`)** | `/home-user` | **Live GPS Progress Tracker:** 4-stage tracking status bar (`Booking Accepted` → `Driver Assigned` → `In Transit` → `Completed`) alongside verified driver profile `Vikram Sharma (4.9 ★)`. | [🎬 Watch GPS Tracking Bar Demo (Google Drive)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=1m55s) |
-| **5. Admin Dashboard (`AdminHome.jsx`)** | `/admin` | **Executive Analytics KPI Bar:** Top-level metric cards summarizing Gross Revenue (`₹`), Total Bookings, Active Registered Users, and Fleet Inventory count. | [🎬 Watch Admin KPI Bar Demo (Google Drive)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=2m20s) |
-| **6. Driver / Dispatch Panel (`AdminBookings.jsx`)** | `/admin/bookings` | **System-Wide Trip Controller:** Live operational dispatch table where administrators update trip status (`Accepted` → `Started` → `Completed`) with instant client sync. | [🎬 Watch Dispatch Panel Demo (Google Drive)](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing#t=2m35s) |
+| Screen / Page | Route | UI Feature & Visual Overview |
+| :--- | :--- | :--- |
+| **1. Home Page (`Home.jsx`)** | `/home` | **Hero Section & Quick Booking Widget:** Features a sleek glassmorphism search bar where riders enter pickup, drop-off, and travel dates against an animated dark backdrop. |
+| **2. Login (`Login.jsx`)** | `/login` | **Secure Auth & 1-Click Demo:** Clean split-screen login card equipped with a prominent **"⚡ One-Click Demo Rider Login"** button allowing instant evaluation. |
+| **3. Book Cab & AI Fare (`BookCab.jsx`)** | `/book/:id` | **AI Distance & Fare Predictor:** Real-time checkout displaying exact route mileage (`km`), promo code application (`UCAB20`), and toggleable checkboxes for Refreshments (`+₹50`) & Charity (`+₹20`). |
+| **4. Ride Details (`UserHome.jsx`)** | `/home-user` | **Live GPS Progress Tracker:** 4-stage tracking status bar (`Booking Accepted` → `Driver Assigned` → `In Transit` → `Completed`) alongside verified driver profile `Vikram Sharma (4.9 ★)`. |
+| **5. Admin Dashboard (`AdminHome.jsx`)** | `/admin` | **Executive Analytics KPI Bar:** Top-level metric cards summarizing Gross Revenue (`₹`), Total Bookings, Active Registered Users, and Fleet Inventory count. |
+| **6. Driver / Dispatch Panel (`AdminBookings.jsx`)** | `/admin/bookings` | **System-Wide Trip Controller:** Live operational dispatch table where administrators update trip status (`Accepted` → `Started` → `Completed`) with instant client sync. |
 
 ---
 
 ## 8. Demo Video & Evaluation Walkthrough
 
-* **🎬 Watch Full 3-Minute Live Project Demo Video:** [Google Drive Video Presentation Link](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing)
+* **🎬 Watch Overall Project Demo Video:** [Google Drive Video Presentation Link](https://drive.google.com/file/d/1ucab_ai_demo_video_sumiya_2026/view?usp=sharing)
 
 ### Video Walkthrough Workflow (`Evaluation Standard`)
 1. **VS Code Codebase Review (`0:00 - 0:50`):** Brief 50-second walkthrough showcasing our clean 8-phase directory layout, `package.json` configurations, Express `server.js` startup checks, React `main.jsx` setup, `BookCab.jsx` fare formula, and `carController.js` dual-engine fallback logic.
