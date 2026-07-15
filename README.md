@@ -150,7 +150,7 @@ Below are visual descriptions and showcase highlights of the 6 core application 
 
 ## 8. Demo Video & Evaluation Walkthrough
 
-* **🎬 Watch Overall Project Demo Video:** [Google Drive Video Presentation Link]((https://drive.google.com/file/d/1x79fNx-XFYEdZQxv-gqbRkBtxfb20gRs/view?usp=drive_link))
+* **🎬 Watch Overall Project Demo Video:** [Google Drive Video Presentation Link](https://drive.google.com/file/d/1x79fNx-XFYEdZQxv-gqbRkBtxfb20gRs/view?usp=drive_link)
 
 ### Video Walkthrough Workflow (`Evaluation Standard`)
 1. **VS Code Codebase Review (`0:00 - 0:50`):** Brief 50-second walkthrough showcasing our clean 8-phase directory layout, `package.json` configurations, Express `server.js` startup checks, React `main.jsx` setup, `BookCab.jsx` fare formula, and `carController.js` dual-engine fallback logic.
